@@ -9,7 +9,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="addr_tbl")
+@Table(name="ADDR_TBL")
 public class Address {
 	@Id
 	@Column(name="addrid")
